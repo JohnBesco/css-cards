@@ -6,13 +6,17 @@ body {
 
 .cards {
     width: 300px;
-    height: 500px;
-    border: 1px solid red;
+    height: 300px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #container {
-    height: 100vh;
-    width: fit-content;
+    width: 1000px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
