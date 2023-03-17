@@ -6,6 +6,10 @@ body {
     height: 100vh;
 }
 
+.card {
+    border-radius: 10px;
+}
+
 #card1 {
     background-image: url(assets/ecommerce1.jpg);
     background-size: cover;
@@ -41,7 +45,6 @@ body {
     width: 720px;
     height: 350px;
 }
-
 
 #main-container {
     height: 70vh;
@@ -80,4 +83,26 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2 / span;
+}
+
+.overlay1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 280px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.card-title {
+    font-family: 'Rokkitt', serif;
+    font-size: 2.8em;;
+    margin: 0;
+}
+
+.card-text {
+    font-family: 'Arimo', sans-serif;
+    font-size: 1.2em;
 }
