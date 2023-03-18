@@ -17,6 +17,7 @@ body {
     background-position: center;
     width: 350px;
     height: 280px;
+    position: absolute;
 }
 
 #card2 {
@@ -26,6 +27,8 @@ body {
     background-position: center;
     width: 350px;
     height: 280px;
+    position: absolute;
+
 }
 
 #card3 {
@@ -35,6 +38,7 @@ body {
     background-position: center;
     width: 350px;
     height: 650px;
+    position: absolute;
 }
 
 #card4 {
@@ -44,6 +48,8 @@ body {
     background-position: center;
     width: 720px;
     height: 350px;
+    position: absolute;
+
 }
 
 #main-container {
@@ -90,11 +96,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: inherit;
-    height: 280px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
 }
+
+.card:hover .overlay1 {
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transition-timing-function: linear;
+    transition-duration: 700ms;
+    --tw-translate-y: 100%;
+    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+
 
 .card-title {
     font-family: 'Rokkitt', serif;
@@ -106,3 +128,4 @@ body {
     font-family: 'Arimo', sans-serif;
     font-size: 1.2em;
 }
+
