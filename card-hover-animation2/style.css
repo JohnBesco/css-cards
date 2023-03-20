@@ -18,6 +18,7 @@ body {
     width: 350px;
     height: 280px;
     position: absolute;
+    overflow-y: scroll;
 }
 
 #card2 {
@@ -28,7 +29,7 @@ body {
     width: 350px;
     height: 280px;
     position: absolute;
-
+    overflow-y: scroll;
 }
 
 #card3 {
@@ -39,6 +40,7 @@ body {
     width: 350px;
     height: 650px;
     position: absolute;
+    overflow-y: scroll;
 }
 
 #card4 {
@@ -49,7 +51,7 @@ body {
     width: 720px;
     height: 350px;
     position: absolute;
-
+    overflow-y: scroll;
 }
 
 #main-container {
@@ -108,7 +110,7 @@ body {
     z-index: -1;
     transition: transform 0.5s ease;
     transition-timing-function: linear;
-    transition-duration: 700ms;
+    transition-duration: 600ms;
 }
 
 .card:hover .overlay1 {
@@ -117,7 +119,7 @@ body {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
     transition-timing-function: linear;
-    transition-duration: 700ms;
+    transition-duration: 600ms;
     --tw-translate-y: 100%;
     transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
