@@ -71,8 +71,8 @@ body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
-        width: 90vw;
+        justify-content: space-around;
+        width: 80vw;
         height: 100vh;
         margin: 0 auto;
         border: 1px solid red;
@@ -89,8 +89,8 @@ body {
     }
 
     .grid-item4 {
-        width: 200px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
     }
 }
 
